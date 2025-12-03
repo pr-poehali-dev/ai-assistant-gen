@@ -29,7 +29,7 @@ const Index = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: 1,
-      text: 'Привет! Я твой ИИ-ассистент. Чем могу помочь?',
+      text: 'Привет! Я Мия 1 — твой ИИ-ассистент. Чем могу помочь?',
       sender: 'ai',
       timestamp: new Date(),
     },
@@ -56,7 +56,7 @@ const Index = () => {
     setTimeout(() => {
       const aiResponse: Message = {
         id: messages.length + 2,
-        text: `Отличный вопрос! Я обработал твой запрос "${inputMessage}" и готов помочь. Это демо-версия ответа ИИ-ассистента.`,
+        text: `Отличный вопрос! Я обработала твой запрос "${inputMessage}" и готова помочь. Это Мия 1 — демо-версия ответа.`,
         sender: 'ai',
         timestamp: new Date(),
       };
@@ -96,7 +96,7 @@ const Index = () => {
             <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-primary to-accent flex items-center justify-center animate-pulse-glow">
               <Icon name="Sparkles" size={24} className="text-white" />
             </div>
-            <h1 className="text-2xl font-bold gradient-text">AI Assistant</h1>
+            <h1 className="text-2xl font-bold gradient-text">Мия 1</h1>
           </div>
 
           <nav className="flex items-center gap-4">
